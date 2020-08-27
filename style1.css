@@ -1,0 +1,27 @@
+html{
+  display: grid !important;
+  height: 100% !important;
+}
+
+body {
+  display: contents;
+  width: fit-content;
+  height: fit-content;
+}
+
+h1{
+  font-size: 12px !important;
+}
+
+.container{
+  display: grid;
+  grid-template-columns: 10% 80% 10%;
+  grid-template-rows: 10% 80% 10%;
+}
+
+
+
+.wrapper5{
+  background-color: orangered;
+}
+

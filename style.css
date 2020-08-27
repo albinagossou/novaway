@@ -37,9 +37,9 @@ body{
 }
 
 .container .details {
-  display: flex;
+  display: grid;
+  grid-template-rows: 25% 75%;
   justify-content: center;
-  align-items: center;
   width: 50%;
   height: 100%;
   box-sizing: border-box;
@@ -54,6 +54,10 @@ body{
   color: #444;
 }
 
+.wrapper{
+  background-color: green;
+  padding-left: 2rem;
+}
 
 .container .details h2 span {
 
